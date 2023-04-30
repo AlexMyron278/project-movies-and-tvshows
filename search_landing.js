@@ -8,7 +8,6 @@ function specific_search(key) {
   fetch(url)
     .then((result) => result.json())
     .then((data) => {
-      console.log(data);
       displayInfo(data.results);
     });
 }
