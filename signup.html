@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- PUT LEGAL API LEGAL INFO AT BOTTOM OF HOMEPAGE -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLeFLd86FtpZnr8N1D8y5ksrgxyNkZRP_RGQ&usqp=CAU"
+    />
+    <title>Sign Up</title>
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="signup.css" />
+    
+  </head>
+
+    <div class="new">
+        <h1 class="new_title">Sign Up</h1>
+        <div class="container text-centered">
+          <form onsubmit="return signupForm();" method="post" action="signup.php">
+            <label for="email">Email: </label>
+            <input name="email" id="email" type="email" required>
+            <br><br>
+            <label for="password">Password: </label>
+            <input name="password" id="password" type="text" required>
+            <br><br>
+            <label for="password2">Verify Password: </label>
+            <input name="password2" id="password2" type="password" required>
+            <br><br>
+            <input type="button" value="Sign up" id="signup" class="disable">
+          </form>
+        </div>
+         <a href="login.html" class="link"><h4>Go back to login</h4></a>
+         <a href="index.html" class="link"><h4>Go back to home</h4></a>
+    </div>
+    <script type="module" src="signup.js"></script>
+
+</html>
