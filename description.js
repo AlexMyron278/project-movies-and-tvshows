@@ -198,7 +198,7 @@ window.onload = function () {
   
   if (
     localStorage.getItem("CurrentUser") != null &&
-    localStorage.getItem("CurrentUser") != "" && typeof(localStorage.getItem("CurrentUser")) === 'undefined'
+    localStorage.getItem("CurrentUser") != ""
   ) {
     let watchlist_array = localStorage.getItem("user_watchlist").split("*");
     let bookmark_array = localStorage.getItem("user_bookmarks").split("*");
